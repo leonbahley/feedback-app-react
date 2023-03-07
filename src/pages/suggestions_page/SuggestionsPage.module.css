@@ -1,0 +1,11 @@
+.suggestions__wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 30px;
+}
+.suggestions__subwrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

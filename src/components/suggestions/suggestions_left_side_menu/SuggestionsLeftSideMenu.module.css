@@ -1,0 +1,113 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.titleBlock {
+  width: 255px;
+  height: 137px;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  border-radius: 10px;
+  padding-top: 62px;
+  padding-left: 24px;
+}
+.titleBlock__title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 5px;
+  line-height: 29px;
+  letter-spacing: -0.25px;
+}
+.titleBlock__subtitle {
+  font-size: 15px;
+  color: #fff;
+  opacity: 0.75;
+  line-height: 22px;
+}
+.optionsBlock {
+  background-color: #fff;
+  width: 255px;
+  height: 166px;
+  border-radius: 10px;
+  padding: 24px 50px 24px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  row-gap: 14px;
+}
+.optionsBlock__option {
+  background: #f2f4ff;
+  padding: 6px 16px 6px 16px;
+  color: #4661e6;
+  font-weight: bold;
+  font-size: 13px;
+  border-radius: 13px;
+  border: 0;
+  cursor: pointer;
+  line-height: 19px;
+}
+.roadmapBlock {
+  background-color: #fff;
+  width: 255px;
+  height: 178px;
+  padding: 19px 24px 24px 24px;
+  border-radius: 10px;
+}
+.roadmapBlock__decPoint {
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  margin-right: 16px;
+}
+.roadmapBlock__decPoint__first {
+  background: #f49f85;
+}
+.roadmapBlock__decPoint__second {
+  background: #ad1fea;
+}
+.roadmapBlock__decPoint__third {
+  background: #62bcfa;
+}
+.roadmapBlock__item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #647196;
+  line-height: 23px;
+}
+.roadmapBlock__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.roadmapBlock__itemList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 24px;
+}
+.roadmapBlock__itemsQty {
+  margin-left: auto;
+  font-weight: bold;
+}
+.roadmapBlock__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+}
+.roadmapBlock__button {
+  color: #4661e6;
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  line-height: 19px;
+  cursor: pointer;
+}
+.roadmapBlock__button:hover {
+  color: #8397f8;
+}

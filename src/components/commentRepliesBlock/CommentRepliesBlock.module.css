@@ -1,0 +1,34 @@
+.commentsWrapper {
+  border-left: 2px solid #8c92b345;
+  width: 641px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  gap: 10px;
+}
+.commentItem__name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.194444px;
+  color: #3a4374;
+}
+.commentItem__text {
+  font-size: 15px;
+  line-height: 22px;
+  color: #647196;
+  overflow-wrap: break-word;
+}
+.commentItem__wrapper {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.image {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

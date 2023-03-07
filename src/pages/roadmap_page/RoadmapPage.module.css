@@ -1,0 +1,31 @@
+.columnTitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3a4374;
+  margin-bottom: 4px;
+}
+.columnDescription {
+  font-size: 16px;
+  line-height: 23px;
+  color: #647196;
+  margin-bottom: 32px;
+}
+.itemList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 350px;
+}
+.columnWrapper {
+  display: flex;
+  gap: 30px;
+  margin-top: 48px;
+}
+.primaryWrapper {
+  padding-top: 30px;
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}

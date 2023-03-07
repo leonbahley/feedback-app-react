@@ -1,0 +1,27 @@
+.suggestionsHeader {
+  width: 825px;
+  height: 72px;
+  background-color: #373f68;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 23px 24px;
+  gap: 38px;
+}
+.suggestionsHeader__title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  display: flex;
+  gap: 5px;
+}
+.suggestionsHeader__sortFeature {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}

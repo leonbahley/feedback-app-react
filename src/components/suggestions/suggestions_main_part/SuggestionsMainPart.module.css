@@ -1,0 +1,44 @@
+.noFeedbackBlock {
+  width: 825px;
+  height: 600px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.noFeedbackBlock__title {
+  letter-spacing: -0.333333px;
+  color: #3a4374;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  margin-top: 54px;
+  margin-bottom: 16px;
+}
+.noFeedbackBlock__desctiption {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #647196;
+  width: 422px;
+  margin-bottom: 92px;
+}
+.suggestionsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.primaryWrapper {
+  position: relative;
+}
+.spinner {
+  position: absolute;
+  background-color: #fff;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
