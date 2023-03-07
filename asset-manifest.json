@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/feedback-app-react/static/css/main.eddc5afa.css",
+    "main.js": "/feedback-app-react/static/js/main.493bfdbb.js",
+    "static/media/person.jpg": "/feedback-app-react/static/media/person.4c595c3ea6d0bac28068.jpg",
+    "static/media/man.png": "/feedback-app-react/static/media/man.2db5eef2a76d5f935c02.png",
+    "index.html": "/feedback-app-react/index.html",
+    "main.eddc5afa.css.map": "/feedback-app-react/static/css/main.eddc5afa.css.map",
+    "main.493bfdbb.js.map": "/feedback-app-react/static/js/main.493bfdbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eddc5afa.css",
+    "static/js/main.493bfdbb.js"
+  ]
+}
