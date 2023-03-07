@@ -52,6 +52,7 @@ const suggestionsSlice = createSlice({
       state.items[index] = action.payload;
       state.commentsAreLoading = false;
       state.itemIsLoading = false;
+      state.fetchedItemById = action.payload;
     },
     [editSuggestion.pending](state, action) {
       state.commentsAreLoading = true;
