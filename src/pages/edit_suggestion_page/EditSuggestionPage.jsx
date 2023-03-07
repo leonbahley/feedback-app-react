@@ -74,7 +74,7 @@ export default function EditSuggestionPage() {
   const defaultCategory = defineDefaultCategory(suggestionItem?.category);
 
   const defaultStatuts = defineDefaultStatus(suggestionItem?.status);
-  console.log("location.state", location.state);
+
   return (
     <div className={styles.primaryWrapper}>
       <GobackButton handleClick={goBack} />
