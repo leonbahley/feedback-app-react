@@ -8,7 +8,7 @@ import SuggestionsItemPage from "../pages/suggestions_item_page/SuggestionsItemP
 export const App = () => {
   return (
     <>
-      <Routes basename="/feedback-app">
+      <Routes basename="/feedback-app-react">
         <Route path="/" element={<SuggestionsPage />} />
         <Route path="add-suggestion" element={<AddSuggestionPage />} />
         <Route
