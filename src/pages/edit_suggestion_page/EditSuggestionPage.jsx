@@ -34,7 +34,16 @@ export default function EditSuggestionPage() {
     dispatch(fetchSuggestionItem(suggestionId));
   }, [dispatch, suggestionId]);
 
-  const goBack = () => {
+  const goBack = (deleteAction) => {
+    if (deleteAction) {
+      if (location.state?.from?.state?.from) {
+        navigate("/roadmap");
+        return;
+      } else {
+        navigate("/");
+        return;
+      }
+    }
     if (location.state?.from?.state?.from) {
       navigate(backLinkHref, { state: { to: "/roadmap" } });
     } else navigate(backLinkHref);
@@ -59,13 +68,13 @@ export default function EditSuggestionPage() {
 
   const deleteItem = () => {
     dispatch(deleteSuggestion(suggestionId));
-    goBack();
+    goBack("deleteAction");
   };
 
   const defaultCategory = defineDefaultCategory(suggestionItem?.category);
 
   const defaultStatuts = defineDefaultStatus(suggestionItem?.status);
-
+  console.log("location.state", location.state);
   return (
     <div className={styles.primaryWrapper}>
       <GobackButton handleClick={goBack} />
